@@ -80,3 +80,21 @@ console.log($capitalize("hello world"));
 console.log($randomNumber(5));
 // random number: 3
 ```
+
+---
+
+<code>$total(array, number)</code>
+
+```js
+const array = [4, 3];
+
+console.log($total(array));
+// 7
+```
+
+```js
+let array = [{ count: 4 }, { count: 3 }];
+
+console.log($total(array, "count"));
+// 7
+```

@@ -42,3 +42,11 @@ export const $capitalize = (text: string) => {
 export const $randomNumber = (number: number) => {
   return Math.floor(Math.random() * number);
 };
+
+export const $total = (array: any[], key: string) => {
+  let value = 0;
+  return array.reduce(
+    (accumulator, item) => (accumulator += key ? item[key] : item),
+    value
+  );
+};

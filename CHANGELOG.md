@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.7
+
+### Patch Changes
+
+- Added $total
+
 ## 0.1.6
 
 ### Patch Changes
