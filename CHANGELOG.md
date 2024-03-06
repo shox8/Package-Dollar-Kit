@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.5
+
+### Patch Changes
+
+- Added $capitalize
+
 ## 0.1.4
 
 ### Patch Changes

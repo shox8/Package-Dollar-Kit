@@ -38,3 +38,7 @@ export const $getId = (length: number) => {
 export const $percentage = (number: number, main: number) => {
   return Math.floor((number / main) * 100);
 };
+
+export const $capitalize = (text: string) => {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+};

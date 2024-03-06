@@ -62,3 +62,12 @@ console.log($isOdd(3));
 console.log($percentage(2, 4));
 // 50
 ```
+
+---
+
+<code>$capitalize(text)</code>
+
+```js
+console.log($capitalize("hello world"));
+// Hello world
+```

@@ -1,7 +1,7 @@
 {
   "name": "dollar-kit",
   "license": "MIT",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "shox.dev",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
