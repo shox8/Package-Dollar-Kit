@@ -30,3 +30,11 @@ export const $getId = (length: number) => {
   }
   return id;
 };
+
+export const isOdd = (number: number) => {
+  return number % 2 !== 0;
+};
+
+export const isEven = (number: number) => {
+  return number % 2 === 0;
+};
