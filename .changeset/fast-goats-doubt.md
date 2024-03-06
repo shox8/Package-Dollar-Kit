@@ -1,0 +1,3 @@
+---
+"dollar-kit": patch
+---
