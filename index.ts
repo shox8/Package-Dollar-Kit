@@ -30,5 +30,3 @@ export const $getId = (length: number) => {
   }
   return id;
 };
-
-(() => {})();
