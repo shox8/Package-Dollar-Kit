@@ -34,3 +34,7 @@ export const $getId = (length: number) => {
   }
   return id;
 };
+
+export const $percentage = (number: number, main: number) => {
+  return Math.floor((number / main) * 100);
+};

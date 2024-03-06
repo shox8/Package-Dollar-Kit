@@ -53,3 +53,12 @@ console.log($getId(6));
 console.log($isOdd(3));
 // true
 ```
+
+---
+
+<code>$percentage(number, mainNumber)</code>
+
+```js
+console.log($percentage(2, 4));
+// 50
+```

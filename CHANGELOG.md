@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.4
+
+### Patch Changes
+
+- Added $percentage
+
 ## 0.1.3
 
 ### Patch Changes
