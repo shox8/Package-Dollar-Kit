@@ -44,3 +44,12 @@ console.log($number(-3, 5));
 console.log($getId(6));
 // RlqQta
 ```
+
+---
+
+<code>$isOdd(number)</code>
+
+```js
+console.log($isOdd(3));
+// true
+```
