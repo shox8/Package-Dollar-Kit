@@ -42,3 +42,7 @@ export const $percentage = (number: number, main: number) => {
 export const $capitalize = (text: string) => {
   return text.charAt(0).toUpperCase() + text.slice(1);
 };
+
+export const $randomNumber = (number: number) => {
+  return Math.floor(Math.random() * number);
+};

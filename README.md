@@ -71,3 +71,12 @@ console.log($percentage(2, 4));
 console.log($capitalize("hello world"));
 // Hello world
 ```
+
+---
+
+<code>$randomNumber(number)</code>
+
+```js
+console.log($randomNumber(5));
+// random number: 3
+```
