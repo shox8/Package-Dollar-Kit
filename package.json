@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "release": "pnpm build && changeset publish",
+    "release": "npm run build && npx changeset && npm version patch && npm publish",
     "lint": "tsc"
   },
   "devDependencies": {
