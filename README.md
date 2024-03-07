@@ -74,11 +74,11 @@ console.log($capitalize("hello world"));
 
 ---
 
-<code>$randomNumber(number)</code>
+<code>$randomInt(minNumber, maxNumber)</code>
 
 ```js
-console.log($randomNumber(5));
-// random number: 3
+console.log($randomInt(5, 10));
+// random number: 7
 ```
 
 ---
@@ -98,3 +98,14 @@ let array = [{ count: 4 }, { count: 3 }];
 console.log($total(array, "count"));
 // 7
 ```
+
+---
+
+<code>$formatNumber(number)</code>
+
+```js
+console.log($formatNumber(4000000));
+// 4 000 000
+```
+
+

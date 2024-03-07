@@ -39,8 +39,8 @@ export const $capitalize = (text: string) => {
   return text.charAt(0).toUpperCase() + text.slice(1);
 };
 
-export const $randomNumber = (number: number) => {
-  return Math.floor(Math.random() * number);
+export const $randomInt = (min: number, max: number) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
 export const $total = (array: any[], key: string) => {
