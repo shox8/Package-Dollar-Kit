@@ -50,3 +50,7 @@ export const $total = (array: any[], key: string) => {
     value
   );
 };
+
+export const $formatNumber = (number: number) => {
+  return number.toLocaleString();
+};

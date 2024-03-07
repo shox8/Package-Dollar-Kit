@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.8
+
+### Patch Changes
+
+- Added $formatNumber
+
 ## 0.1.7
 
 ### Patch Changes
