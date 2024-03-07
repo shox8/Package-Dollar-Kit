@@ -86,7 +86,7 @@ console.log($randomInt(5, 10));
 <code>$total(array, number)</code>
 
 ```js
-const array = [4, 3];
+let array = [4, 3];
 
 console.log($total(array));
 // 7
