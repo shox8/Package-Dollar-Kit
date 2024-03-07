@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.10
+
+### Patch Changes
+
+- Added $shuffleArray
+
 ## 0.1.9
 
 ### Patch Changes

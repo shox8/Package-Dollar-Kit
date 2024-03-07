@@ -1,14 +1,14 @@
 {
   "name": "dollar-kit",
   "license": "MIT",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "shox.dev",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "release": "npm run build && npx changeset && npm version patch && npm publish",
+    "release": "npm run build && npx changeset && npx changeset version && npm publish",
     "lint": "tsc"
   },
   "devDependencies": {

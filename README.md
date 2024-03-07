@@ -1,14 +1,14 @@
 <code>$filter(array, searchText, key)</code>
 
 ```js
-const items = ["laptop", "to year", "pen"];
+let items = ["laptop", "to year", "pen"];
 
 console.log($filter(items, "to"));
-// [ 'laptop', 'to year' ]
+// [ "laptop", "to year" ]
 ```
 
 ```js
-const items = [
+let items = [
   { name: "laptop", key: "property" },
   { name: "to year", key: "property" },
   { name: "pen", key: "property" },
@@ -108,4 +108,13 @@ console.log($formatNumber(4000000));
 // 4 000 000
 ```
 
+---
 
+<code>$shuffleArray(array)</code>
+
+```js
+let array = ["first", "second", "third"];
+
+console.log($shuffleArray(array));
+// [ "third", "first", "second" ]
+```
