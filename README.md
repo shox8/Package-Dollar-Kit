@@ -118,3 +118,12 @@ let array = ["first", "second", "third"];
 console.log($shuffleArray(array));
 // [ "third", "first", "second" ]
 ```
+
+---
+
+<code>$truncateString(text, length)</code>
+
+```js
+console.log($truncateString("Hello world", 3));
+// Hel...
+```

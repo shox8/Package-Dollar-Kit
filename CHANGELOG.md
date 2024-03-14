@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.1.11
+
+### Patch Changes
+
+- Added $truncateString
+
 ## 0.1.10
 
 ### Patch Changes

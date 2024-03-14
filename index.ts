@@ -55,10 +55,15 @@ export const $formatNumber = (number: number) => {
   return number.toLocaleString();
 };
 
-export function $shuffleArray(array: any[]) {
+export const $shuffleArray = (array: any[]) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
-}
+};
+
+export const $truncateString = (text: string, length: number) => {
+  if (text.length <= length) return text;
+  return text.substring(0, length) + "...";
+};
