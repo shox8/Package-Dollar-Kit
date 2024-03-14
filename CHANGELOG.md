@@ -1,14 +1,14 @@
 # dollar-kit
 
-## 0.1.11
+## 0.2.1
 
 ### Patch Changes
 
 - Added $truncateString
 
-## 0.1.10
+## 0.2.0
 
-### Patch Changes
+### Minor Changes
 
 - Added $shuffleArray
 
