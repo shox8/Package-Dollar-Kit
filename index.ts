@@ -78,3 +78,7 @@ export const $is = {
     return number % 2 === 0;
   },
 };
+
+export const $uniqueArray = (array: any[]) => {
+  return Array.from(new Set(array));
+};

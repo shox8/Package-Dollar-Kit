@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.2.4
+
+### Patch Changes
+
+- Added $uniqueArray
+
 ## 0.2.3
 
 ### Patch Changes
