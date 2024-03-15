@@ -153,3 +153,12 @@ let array = [1, 2, 3, 3, 4, 5, 5, 5];
 console.log($uniqueArray(array));
 // [1, 2, 3, 4, 5]
 ```
+
+---
+
+<code>$reverseText</code>
+
+```js
+console.log($reverseText("Hello"));
+// olleH
+```

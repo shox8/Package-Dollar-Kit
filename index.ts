@@ -82,3 +82,7 @@ export const $is = {
 export const $uniqueArray = (array: any[]) => {
   return Array.from(new Set(array));
 };
+
+export const $reverseText = (text: string) => {
+  return text.split("").reverse().join("");
+};

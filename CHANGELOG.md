@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.2.5
+
+### Patch Changes
+
+- Added $reverseText
+
 ## 0.2.4
 
 ### Patch Changes
