@@ -15,10 +15,6 @@ export const $number = (from: number, to: number) => {
   });
 };
 
-export const $isOdd = (number: number) => {
-  return number % 2 !== 0;
-};
-
 export const $getId = (length: number) => {
   const symbols =
     $abc().join("") + $abc().join("").toUpperCase() + $number(0, 9).join("");
@@ -66,4 +62,19 @@ export const $shuffleArray = (array: any[]) => {
 export const $truncateString = (text: string, length: number) => {
   if (text.length <= length) return text;
   return text.substring(0, length) + "...";
+};
+
+export const $is = {
+  undefined: (data: any) => {
+    return data === undefined;
+  },
+  null: (data: any) => {
+    return data === null;
+  },
+  odd: (number: number) => {
+    return number % 2 !== 0;
+  },
+  even: (number: number) => {
+    return number % 2 === 0;
+  },
 };

@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.2.3
+
+### Patch Changes
+
+- Added $is and Removed $isOdd
+
 ## 0.2.2
 
 ### Patch Changes

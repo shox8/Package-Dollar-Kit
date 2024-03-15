@@ -47,15 +47,6 @@ console.log($getId(6));
 
 ---
 
-<code>$isOdd(number)</code>
-
-```js
-console.log($isOdd(3));
-// true
-```
-
----
-
 <code>$percentage(number, mainNumber)</code>
 
 ```js
@@ -126,4 +117,28 @@ console.log($shuffleArray(array));
 ```js
 console.log($truncateString("Hello world", 3));
 // Hel...
+```
+
+---
+
+<code>$is</code>
+
+```js
+console.log($is.odd(3));
+// true
+```
+
+```js
+console.log($is.even(3));
+// false
+```
+
+```js
+console.log($is.null(null));
+// true
+```
+
+```js
+console.log($is.undefined(undefined));
+// true
 ```
