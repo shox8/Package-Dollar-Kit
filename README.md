@@ -180,3 +180,14 @@ console.log($padStart("Hello", 10, "-"));
 console.log($padEnd("Hello", 10, "*"));
 // Hello*****
 ```
+
+---
+
+<code>$randomItem(array)</code>
+
+```js
+let array = [1, 2, 3, 4, 5, 6];
+
+console.log($randomItem(array));
+// 3
+```

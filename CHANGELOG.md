@@ -1,5 +1,11 @@
 # dollar-kit
 
+## 0.2.7
+
+### Patch Changes
+
+- Added $randomItem
+
 ## 0.2.6
 
 ### Patch Changes

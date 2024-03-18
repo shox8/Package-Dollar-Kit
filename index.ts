@@ -94,3 +94,7 @@ export const $padStart = (text: string, length: number, char: string) => {
 export const $padEnd = (text: string, length: number, char: string) => {
   return text.padEnd(length, char);
 };
+
+export const $randomItem = (array: any[]) => {
+  return array[Math.floor(Math.random() * array.length)];
+};
