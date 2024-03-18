@@ -156,9 +156,27 @@ console.log($uniqueArray(array));
 
 ---
 
-<code>$reverseText</code>
+<code>$reverseText()</code>
 
 ```js
 console.log($reverseText("Hello"));
 // olleH
+```
+
+---
+
+<code>$padStart(text, length, char)</code>
+
+```js
+console.log($padStart("Hello", 10, "-"));
+// --Hello
+```
+
+---
+
+<code>$padEnd(text, length, char)</code>
+
+```js
+console.log($padEnd("Hello", 10, "*"));
+// Hello*****
 ```
