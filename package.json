@@ -11,6 +11,11 @@
     "release": "npm run build && npx changeset && npx changeset version && npm publish",
     "lint": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shox2008/Package-Dollar-Kit.git"
+  },
+  "homepage": "https://github.com/Shox2008/Package-Dollar-Kit/blob/main/README.md",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "tsup": "^6.5.0",
