@@ -86,3 +86,11 @@ export const $uniqueArray = (array: any[]) => {
 export const $reverseText = (text: string) => {
   return text.split("").reverse().join("");
 };
+
+export const $padStart = (text: string, length: number, char: string) => {
+  return text.padStart(length, char);
+};
+
+export const $padEnd = (text: string, length: number, char: string) => {
+  return text.padEnd(length, char);
+};
