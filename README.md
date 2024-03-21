@@ -191,3 +191,12 @@ let array = [1, 2, 3, 4, 5, 6];
 console.log($randomItem(array));
 // 3
 ```
+
+---
+
+<code>$formatDate(date)</code>
+
+```js
+console.log($formatDate("2008-04-30"));
+// Wed Apr 30 2008
+```

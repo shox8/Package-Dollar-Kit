@@ -98,3 +98,7 @@ export const $padEnd = (text: string, length: number, char: string) => {
 export const $randomItem = (array: any[]) => {
   return array[Math.floor(Math.random() * array.length)];
 };
+
+export const $formatDate = (date: string) => {
+    return new Date(date).toDateString();
+}
